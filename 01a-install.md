@@ -48,13 +48,13 @@ cross-platform.
 
 Did you install Python 2 or 3? Why?  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+**Have 2.7 on my current Windows machine, will install 3 when get Mac - WTH**
 
 ### Q2. Which Python Version Installed   
 
 How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+**When running on command line, simply typing ipython or python to load the interactive interpreter will show the version**
 
  
 
