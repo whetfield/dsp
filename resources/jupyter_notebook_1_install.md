@@ -6,13 +6,17 @@ The Jupyter notebook is an interactive computational environment, in which you c
 ### [Install the Notebook](http://jupyter.readthedocs.io/en/latest/install.html)
 Installing Jupyter using Anaconda and conda:  
 For new users, we highly recommend [installing Anaconda](https://www.continuum.io/downloads). Anaconda conveniently installs Python, the Jupyter Notebook, and other commonly used packages for scientific computing and data science.  (Prereq: Python is installed.)
-```console
-$ conda install jupyter
+
+Once anaconda is installed, you can launch the notebook by typing
+```{bash}
+$ jupyter notebook
 ```
 
-### [Upgrade Jupyter Notebook](http://jupyter.readthedocs.io/en/latest/projects/upgrade-notebook.html)
-```bash
-$ conda update jupyter
+### Upgrade all libraries/packages
+We will now update all the packages/libraries installed by anaconda to ensure you have the latest version of everything!
+
+```{bash}
+$ conda update --all
 ```
 
 ### Run the Notebook at Terminal Prompt  

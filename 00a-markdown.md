@@ -3,19 +3,23 @@
 ## Objective
 - It is relevant to learn Markdown so the pre-work can be submitted in an easy-to-read format.  
 - During the bootcamp, you will create a blog on an open source tool and the blogs will be written in Markdown
+- Furthermore, markdown will serve as a great starting point to learning [LaTeX](https://www.latex-project.org/) which is used to make gorgeous documents used in academic publications. If you aren't interested in LaTeX, knowledge of markdown will also prepare you to use software like [Typora](https://typora.io/) - which fuses markdown with LaTeX and other writing packages.
 
 ## Instructions
 Read this document and use the Markdown syntax to write up your pre-work solutions.
 
 ## Deliverable
-Markdown syntax will be seen in subsequent pre-work file submissions.  
+Markdown syntax will be seen in subsequent pre-work file submissions.
+
+Typora is a fantastic free software that renders your markdown in realtime as you type. You can also write markdown in any text editor and preview it on github.
+
 **Important:**  Look at your rendered markdown file before submitting!  :boom:  
 
 ---
 
 ## Introduction
 ### [What Is Markdown? 4 Reasons Why You Should Learn It Now](http://www.makeuseof.com/tag/markdown-4-reasons-learn-now/)  
-Markdown is a simple way to add formatting — like headers, bold/italic text, and lists — to plain text. Rather than relying on HTML or WYSIWYG editors, Markdown allows you to create full pages of formatted text without ever having to remove your fingers from the keyboard, and all in a way that’s much more intuitive than HTML.  
+Markdown is a simple way to add formatting — like headers, bold/italic text, and lists — to plain text. Rather than relying on HTML or [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) editors, Markdown allows you to create full pages of formatted text without ever having to remove your fingers from the keyboard, and all in a way that’s much more intuitive than HTML.  
 
 ---
 
@@ -35,8 +39,8 @@ Markdown is a simple way to add formatting — like headers, bold/italic text, a
 ## <a name="section-a"></a>1) Line Breaks 
 
 **How to add line breaks:**  
-**1.  add two spaces to end of line**   
-2.  can enclose text in triple back quotes 
+1.  add two spaces to end of line**   
+2.  enclose text in triple back quotes 
 
 ---
 
@@ -78,7 +82,6 @@ Rule #2
 Rule #3
 ___
 
----
 
 ## <a name="section-e"></a>5) Emoji's 
 
@@ -115,9 +118,9 @@ print "hello moon"
 ```
 
 Block code that is **python**-specific:  
-```python
-print "hello world!"
-print "hello moon"
+```{python}
+print("hello world!")
+print("hello moon")
 ```
 
 #### bash or console

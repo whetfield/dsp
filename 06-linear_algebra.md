@@ -13,12 +13,14 @@ You should be familiar with the following concepts:
 * systems of linear equations
 * eigenvalues
 
-### Exercises  
+### Video Series
 
-There are matrix operations exercises in the [Matrix Algebra Worksheet](math/matrix_algebra_worksheet.pdf).  Print out the worksheet and complete the computations by hand.  You can check your work in Python.
+An excellent **visual** introduction to Linear Algebra can be found [here](https://www.youtube.com/watch?v=kjBOesZCoqc&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab).
 
----
+It is highly recommended that you watch the above video series.
 
-Place your Python code (with results in comment) in this file: [matrix_algebra.py](math/matrix_algebra.py)
+For those looking for a more in-depth treatment of linear algebra, you should check out [MIT's 18.06 Linear Algebra](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/) Course
+
+
 
 

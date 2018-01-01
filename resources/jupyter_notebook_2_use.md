@@ -11,7 +11,7 @@ Once you launch Jupyter, it will open the notebook in your default browser.
 ---
 
 ### First Steps
-* On upper right, select "New" and then "Python 2" (or your default version of Python)
+* On upper right, select "New" and then "Python 3" (or your default version of Python)
 * Click on "Untitled" at upper left and rename your notebook.
 
 ### Running bash commands in a Jupyter notebook  

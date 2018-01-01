@@ -4,7 +4,9 @@
 ### Install [git](http://git-scm.com/).
 
 You have it installed if you can run `git --version` at the command
-line and get output like `git version 2.3.5`.
+line and get output like `git version 2.13.5`.
+
+Macbooks have git pre-installed.
 
 
 ### Install [Anaconda](http://continuum.io/downloads).
@@ -15,9 +17,9 @@ First, from the command line, all of the following should start up
 some kind of Python interpreter:
 
 ```bash
-python
-ipython
-ipython notebook
+python3
+ipython3
+jupyter notebook
 spyder
 ```
 
@@ -33,12 +35,11 @@ import statsmodels
 import sklearn
 ```
 
-### Install [Homebrew](http://brew.sh/) on Mac
+### Install [Homebrew](http://brew.sh/) on Mac _(optional)_
 
-If you use a Mac, install Homebrew if you don't
-have it yet. You could use Homebrew to manage your `git` and `python`
-installs as well, but the methods given above are very good and more
-cross-platform.
+For users who are already familiar with package managers, you may prefer to install Homebrew.
+
+However, this is completely optional as Anaconda is an all-in-one package manager.
 
 ---
 
@@ -52,7 +53,9 @@ Did you install Python 2 or 3? Why?
 
 ### Q2. Which Python Version Installed   
 
-How can you check the version of Python installed if you happen to be on an unfamiliar computer?
+In the Terminal:
+
+`python3 --version`
 
 **When running on command line, simply typing ipython or python to load the interactive interpreter will show the version**
 
