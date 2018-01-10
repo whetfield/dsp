@@ -14,4 +14,4 @@ plt.xlabel('Number of Children')
 plt.legend(loc= 'upper right')
 plt.show()
 ```
-![graph](dsp/img/biased_actual.png "Graph")
+![graph](biased_actual.png "Graph")
