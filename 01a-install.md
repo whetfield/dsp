@@ -57,7 +57,7 @@ In the Terminal:
 
 `python3 --version`
 
-**When running on command line, simply typing ipython or python to load the interactive interpreter will show the version**
+**python 3.6**
 
  
 
