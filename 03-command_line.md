@@ -20,20 +20,20 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > show current working directory path: pwd
-creating a directory: mkdir
-* deleting a directory: rmdir
-* creating a file using `touch` command touch "name.txt"
-* deleting a file: rm file
-* renaming a file: mv file.txt old_file.txt
-* listing hidden files
-* copying a file from one directory to another: cp folder1/file folder2/file_copy
+* show current working directory path: **`pwd`**
+* creating a directory: **`mkdir`**
+* deleting a directory: **`rmdir`**
+* creating a file using `touch` command: **`touch` "name.txt"**
+* deleting a file: **`rm` file**
+* renaming a file: **`mv` file.txt old_file.txt**
+* listing hidden files: **`ls -a`**
+* copying a file from one directory to another: **`cp` folder1/file folder2/file_copy**
 
-* go to home directory: cd ~
-* go one directory up: cd ..
-* show first 10 lines of file: head file.txt
-* get manual for a command: man command
-* escaping: q
+* go to home directory: **`cd` ~**
+* go one directory up: **`cd` ..**
+* show first 10 lines of file: **`head` file.txt**
+* get manual for a command: **`man` command**
+* escaping: **`q`**
 
 ---
 
@@ -49,21 +49,23 @@ What do the following commands do:
 `ls -Glp`  
 
 
-> > `ls` - list all files in a directory 
-> > `ls -a`  list all files, including entries beginning with a dot ("."
-> > `ls -l`  list files in long format, date modified included, etc.
-> > `ls -lh`  list files in long format, print file sizes in human readable format
-> > `ls -lah`  as above but files listed alphabetically
-> > `ls -t`   list files sorted by modification time, newest first
-> > `ls -Glp` list files in long format, don't print Group names when using l, / indicator (and blue text) included for directories
+* `ls` - list all files in a directory 
+* `ls -a`  list all files, including entries beginning with a dot ("."
+* `ls -l`  list files in long format, date modified included, etc.
+* `ls -lh`  list files in long format, print file sizes in human readable format
+* `ls -lah`  as above but files listed alphabetically
+* `ls -t`   list files sorted by modification time, newest first
+* `ls -Glp` list files in long format, don't print Group names when using l, / indicator (and blue text) included for directories
 
 ### Q3.  More List Files in Unix  
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > `ls -u` display files by file access time
-> > `ls -R` display subdirectories as well
-`ls -d` display only directories
+* `ls -u` display files by file access time
+* `ls -R` display subdirectories as well
+* `ls -d` display only directories
+* `ls-c` display by time stamp
+* `ls -r` display in reverse order
 
 
 ---
@@ -72,7 +74,4 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
- 
-
+* Read in strings from standard input and then can pass to other commands, which normally wouldn't accept such long arguments 
