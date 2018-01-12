@@ -86,10 +86,10 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
->> Identical twins are always of the same sex.  Fraternal twins have a 50% chance of being same or different sex.  Presumably >> the two probabilities given include women in population.
+>> Identical twins are always of the same sex.  Fraternal twins have a 50% chance of being same or different sex.  Presumably the two probabilities given include women in population.
 >>
 >> So fraternal twins can be FF or MM with 1/(4 x 125) probability or mixed sex with 1/(2 x 125) probability.
->>
+>> 
 >> Identical twins can be FF or MM with equal probability of 1/600.
 >>
 >> We know Elvis is a man and his brother is a man so the FF, MF, FM cases are not part of the sample space.  
@@ -101,9 +101,9 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->>Bayesian statistics is a less restrictive idea of probability.  It treats probabilities as likelihoods of occurrence or >>plausibility of something happening, something that represents a subjective degree of belief.  Frequentist probability is >>represented by the relative occurrence of an event over a large number (infinity at the limit) of trials.
+>>Bayesian statistics is a less restrictive idea of probability.  It treats probabilities as likelihoods of occurrence or plausibility of something happening, something that represents a subjective degree of belief.  Frequentist probability is represented by the relative occurrence of an event over a large number (infinity at the limit) of trials.
 >>
->>One implication of the differences in these approaches is how the each camp would think of a statistical distributions >>parameters, like mu.  A frequentist views the mu quantity as a fixed quantity, albeit unknown.  It would look at the >>likelihood of observing a sample, assuming a certain value of mu.  Given a certain value of mu, the sample has a probability >>distribution.  I'm less familiar with the Bayesian approaches, but a Bayesian would be willing to assume a probability >>distribution for the parameter itself, as probability is a subjective degree of belief.  The problem can be reframed as >>given the sample I have gathered, what is a reasonable range of values the parameter can take, which flips the frequentist >>formulation of assuming a fixed mu, how often would I observe a sample like I just gathered.     
+>>One implication of the differences in these approaches is how the each camp would think of a statistical distributions parameters, like mu.  A frequentist views the mu quantity as a fixed quantity, albeit unknown.  It would look at the likelihood of observing a sample, assuming a certain value of mu.  Given a certain value of mu, the sample has a probability distribution.  I'm less familiar with the Bayesian approaches, but a Bayesian would be willing to assume a probability distribution for the parameter itself, as probability is a subjective degree of belief.  The problem can be reframed as given the sample I have gathered, what is a reasonable range of values the parameter can take, which flips the frequentist formulation of assuming a fixed mu, how often would I observe a sample like I just gathered.     
 
 ---
 
